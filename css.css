@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d2630;
+    height: 35%;
+    width: 1000px;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 1px 30 px rgba(0,0,0,0.3);
+}
+
+#newtask input{
+    border-radius: px;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid rgb(185, 174, 174);
+    padding: 12px;
+    color: black;
+    font-weight: relative;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #c92222;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 55px;
+    height: 45px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #c92222;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#tasks{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.task{
+    background: white;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid wheat;
+}
+
+.task span{
+    font-size: 20px;
+    font-family: 'Copperplate',fantasy;
+    color: #c92222;
+    cursor: pointer;
+}
+
+.delete{
+    border: none;
+    background:#c92222;
+    height: 100%;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
